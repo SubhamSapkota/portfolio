@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Works.css'
-// import facebook from '../../img/Facebook.png'
+import Deerwalk from '../../img/deerwalk.png'
 import { themeContext } from '../../Context';
 import { motion } from "framer-motion";
 const Works = () => {
@@ -51,7 +51,7 @@ const Works = () => {
             <img src="https://www.pngmart.com/files/13/Amazon-Logo-PNG.png" alt="" />
           </div>
           <div className="w-secCircle">
-            <img src="" alt="" />
+            <img src={Deerwalk} alt=""  style={{width: '11rem'}}/>
           </div>
         </motion.div>
         {/* background circles */}

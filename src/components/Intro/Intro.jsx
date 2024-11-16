@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="i-name">
         <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Subham Sapkota</span>
-          <span>An Aspiring MERN Stack developer with a passion for web development.
+          <span style={{ color: darkMode ? "white" : "" }}>An Aspiring MERN Stack developer with a passion for web development.
             I have completed my training as a Full Stack Web Developer at Deerwalk Training Center and I am eager to apply my skills to a challenging role in a dynamic organization.
           </span>
         </div>
