@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="i-name">
         <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Subham Sapkota</span>
-          <span>An Aspiring MERN Stack developer with a passion for web development.</span>
+          <span>An Aspiring MERN Stack developer with a passion for web development.ahha</span>
         </div>
 
         <button className="button i-button">Hire Me</button>
