@@ -1,16 +1,17 @@
 import React from "react";
-import "./Testimonials.css";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "./Testimonials.css";
 
-import { Pagination } from "swiper/modules";
 import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
 import profilePic4 from "../../img/profile4.jpg";
 
 const Testimonial = () => {
+
   const clients = [
     {
       img: profilePic1,
@@ -35,7 +36,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="t-wrapper" id="testimonial">
+    <div className="t-wrapper" id="Testimonial">
       <div className="t-heading">
         <span>Clients always get </span>
         <span>Exceptional Work </span>

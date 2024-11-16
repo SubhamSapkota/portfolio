@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="i-name">
         <span style={{ color: darkMode ? "white" : "" }}>Hey! I am</span>
           <span>Subham Sapkota</span>
-          <span>An Aspiring MERN Stack developer with a passion for web development.ahha</span>
+          <span>An Aspiring MERN Stack developer with a passion for web development.</span>
         </div>
 
         <button className="button i-button">Hire Me</button>
@@ -47,7 +47,7 @@ const Intro = () => {
           
         </div>
       </div>
-      <div className="i-right">
+      <div className='i-right'>
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
@@ -63,15 +63,18 @@ const Intro = () => {
           initial={{ top: "-4%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
-          className="floating-div">
+          className='floating-div'>
           <FloatingDiv image={Crown} txt1='Web' txt2='Developer'/>
         </motion.div>
 
         <motion.div
           initial={{ left: "9rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
-          transition={transition}>
-          <FloatingDiv image={thumbup} txt1='Best' txt2='Award'/>
+          transition={transition}
+          style={{top:"18rem", left:"0rem"}}
+          className='floating-div'
+          >
+          <FloatingDiv image={thumbup} txt1='Best' txt2='Learner'/>
         </motion.div>
       {/* blur divs */}
       <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
